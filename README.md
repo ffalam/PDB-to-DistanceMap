@@ -1,12 +1,12 @@
 # PDB-to-DistanceMap
 
-**Task**
+## **Task**
 Convert PDB Co-ordinates to Distance Map
 
-**Basic Concept Needs to Know:**
+###### **Basic Concept Needs to Know:**
 We can represent a tertiary (3D) protein structure as a contact map or distance matrix, which are both 2D-based representations of a 3D structure.
 
-**Code Description:**
+###### **Code Description:**
 
 -> This code will download PDB files from RCSB website automatically and then will read these PDBs and using PDBParser, 
 will generate 3D ( tertiary) protein structures.
@@ -15,7 +15,7 @@ will generate 3D ( tertiary) protein structures.
 We can crop each distance map to any size (example: 64 by 64, 20 by 20 etc.) if needed.  
 
 
-**Requirement:**
+###### **Requirement:**
 
 Install BioPython: pip install biopython
 
